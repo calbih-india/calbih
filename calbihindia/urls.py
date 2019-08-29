@@ -24,4 +24,11 @@ from mysite import views
 urlpatterns = [
     url(r'^$', views.home, name='home'),
     path('admin/', admin.site.urls),
+    path('about-us/', views.about, name='about-us'),
+    path('what-we-do/', views.whatwedo, name='what-we-do'),
+    path('career/', views.career, name='career'),
+    path('contact-us/', views.contact, name='contact-us'),
+    path('research-students/', views.research_students, name='research-students'),
+    path('academic-research-institutions/', views.academic_research_institutions, name='academic-research-institutions'),
+    
 ]
