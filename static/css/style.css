@@ -1,19 +1,18 @@
 /*
-Theme Name: AAUPF
-Author: Nilay Singh
+Theme Name: Calbih
 Designed By : Chandan Yadav
-Developed By : Nilay Singh and Syed Shakir Ali
+Developed By : Syed Shakir Ali
 
-*/
+*/   
 *{
 	padding:0;
 	margin:0;
-}
+} 
 html,body {
 	height: 100%;
 	margin: 0;
 }
-body {
+body { 
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 	font-size: 14px;
@@ -249,7 +248,7 @@ input:-webkit-autofill:focus {
 }
 /*Bread Crumbs */
 .breadcrumbs {
-	background: url('../img/bread.jpg');
+	background: url('../images/bread.jpg');
 	background-position: 100%;
 	position: relative;
 	background-repeat: no-repeat;
@@ -348,7 +347,7 @@ input:-webkit-autofill:focus {
 	right: -50px;
 }
 
-/*MP Color*/
+/*MP Color*/  
 .tromas-option {
 	position: fixed;
 	display: block;
@@ -439,7 +438,7 @@ input:-webkit-autofill:focus {
 	width: 40px;
 	height: 35px;
 }
-.tromas-option span.color1{background-color:#ED1C24}
+.tromas-option span.color1{background-color:#4460a0}
 .tromas-option span.color2{background-color:#36BFC4}
 .tromas-option span.color3{background-color:#16A085;}
 .tromas-option span.color4{background-color:#FF9800;}
@@ -449,7 +448,7 @@ input:-webkit-autofill:focus {
 .tromas-option span.color8{background-color:#4CAF50;}
 /*=======================
   02. Header CSS
-=========================*/
+=========================*/ 
 .header{
 	background:#fff;
 }
@@ -533,11 +532,7 @@ input:-webkit-autofill:focus {
 	float: left;
 	padding: 30px 0;
 	text-align:left;
-
-}
-
-.header .heading-widget a {
- color: #353535;
+	margin-left:0px;
 }
 
 .header .seal-bihar {
@@ -549,15 +544,9 @@ input:-webkit-autofill:focus {
 
 .header .heading-widget h4 { font-size:29px; line-height:40px; font-weight:900; }
 
-.header .heading-widget h4 a { color: ##353535;}
-
-.header .heading-widget span { font-size:22px; line-height:30px; font-weight:400; color:#ed1c24; }
-
-.header .heading-widget span a { color:#ed1c24; }
+.header .heading-widget span { font-size:22px; line-height:30px; font-weight:400; color:#4460a0; }
 
 .header .heading-widget p { font-size:18px; line-height:30px; font-weight:300; color:#a2a2a2; }
-
-.header .heading-widget p a { color:#a2a2a2; }
 
 
 .header .single-widget {
@@ -617,7 +606,7 @@ input:-webkit-autofill:focus {
 	font-weight: 500;
 	display: block;
 }
-.header .nav li:hover a,
+.header .nav li:hover a, 
 .header .nav li.active a {
 	color: #fff;
 }
@@ -656,7 +645,7 @@ input:-webkit-autofill:focus {
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
-.header .nav li.active a::before,
+.header .nav li.active a::before, 
 .header .nav li:hover a::before {
 	-webkit-transform:translateY(0%);
 	-moz-transform:translateY(0%);
@@ -908,7 +897,7 @@ input:-webkit-autofill:focus {
 	color:#555;
 	padding:30px 15px;
 }
-.header .nav li:hover a,
+.header .nav li:hover a, 
 .header .nav li.active a{
 	background: transparent;
 }
@@ -931,7 +920,7 @@ input:-webkit-autofill:focus {
 }
 .header. .form {
 	position: relative;
-	background: #fff;
+	background: #fff;	
 }
 .header .form input {
 	width: 100%;
@@ -952,7 +941,7 @@ input:-webkit-autofill:focus {
 	right: 0;
 	top: 0;
 	padding: 0;
-	background: #ed1c24;
+	background: #4460a0;
 	width: 57px;
 	height: 50px;
 	color: #fff;
@@ -983,7 +972,7 @@ input:-webkit-autofill:focus {
 	top: 22px;
 }
 
-.header .search a { color:#ed1c24; }
+.header .search a { color:#4460a0; }
 
 .header .search li a {
 	width: 25px;
@@ -1059,7 +1048,7 @@ input:-webkit-autofill:focus {
 .header.style3 .nav li a:before{
 	display:none;
 }
-.header.style3 .nav li:hover a,
+.header.style3 .nav li:hover a, 
 .header.style3 .nav li.active a{
 	color:#fff;
 }
@@ -1100,13 +1089,13 @@ input:-webkit-autofill:focus {
 }
 /*=======================
   End Header CSS
-=========================*/
+=========================*/ 
 
 /*=======================
   03. Hero Area CSS
-=========================*/
+=========================*/ 
 .hero-area{
-	position: relative;
+	position: relative;	
 	height: 492px;
 	overflow:hidden;
 }
@@ -1132,7 +1121,7 @@ input:-webkit-autofill:focus {
 	justify-content: center;
 	width: 100%;
 	height: 580px;
-
+	
 }
 .hero-area .slide-text h1 {
 	display:none;
@@ -1152,6 +1141,7 @@ input:-webkit-autofill:focus {
 	color: #dd5ca3;
 }
 
+
 .hero-area .slide-text h1 .short {
 	font-size: 30px;
 	position: relative;
@@ -1159,7 +1149,7 @@ input:-webkit-autofill:focus {
 	font-weight: 400;
 	margin-bottom:10px;
 	text-transform: capitalize;
-	color: #ed1c24;
+	color: #4460a0;
 	letter-spacing: 4px;
 	line-height: initial;
 }
@@ -1170,7 +1160,7 @@ input:-webkit-autofill:focus {
 	bottom: -1.5px;
 	width: 100px;
 	height: 3px;
-
+	
 }
 .hero-area .slide-text.right{
 	text-align:right;
@@ -1236,7 +1226,7 @@ input:-webkit-autofill:focus {
 }
 .hero-area .owl-controls .owl-dots .owl-dot:hover span{
 	border-color:transparent;
-}
+} 
 .hero-area .owl-controls .owl-dots .owl-dot.active span {
 	border-color: transparent;
 	width: 25px;
@@ -1455,10 +1445,10 @@ input:-webkit-autofill:focus {
 	background:#fff;
 	color:#353535;
 }
-.hero-area.animate-text,
-.hero-area.animate-text
-.single-slider,
-.hero-area.animate-text
+.hero-area.animate-text, 
+.hero-area.animate-text 
+.single-slider, 
+.hero-area.animate-text 
 .slide-text {
 	height: 580px;
 }
@@ -1504,11 +1494,11 @@ input:-webkit-autofill:focus {
 }
 /*=======================
   End Features CSS
-=========================*/
+=========================*/ 
 
 /*=======================
   05. services CSS
-=========================*/
+=========================*/ 
 .services{
 	background:#f6f6f6;
 }
@@ -1744,7 +1734,7 @@ input:-webkit-autofill:focus {
 	margin-top: 15px;
 }
 
-.services.single .services-content a { color: #ed1c24;
+.services.single .services-content a { color: #4460a0;
 }
 
 .services.single .img-right {
@@ -1774,7 +1764,7 @@ input:-webkit-autofill:focus {
 	line-height: 9px;
 	content: "";
 	border-radius: 100%;
-
+	
 }
 .services.single .img-right img {
 	float: left;
@@ -1790,7 +1780,7 @@ input:-webkit-autofill:focus {
 
 /*=======================
   06. Why Choose Us
-=========================*/
+=========================*/ 
 .why-choose {
 	position: relative;
 	background:#353535;
@@ -1865,7 +1855,7 @@ input:-webkit-autofill:focus {
 
 
 .why-choose .single-choose list i {
-
+	
 	margin-right: 5px;
 
 }
@@ -1875,7 +1865,7 @@ input:-webkit-autofill:focus {
 .single-widget .list li { margin-bottom:15px; }
 .single-widget .list li a { color:#bbb; padding-left:10px; }
 
-.single-widget .list li i { color: #ed1c24; margin-right:5px; font-size:20px; margin-left: -26px; }
+.single-widget .list li i { color: #4460a0; margin-right:5px; font-size:20px; margin-left: -26px; }
 
 .why-choose .single-choose h4 {
 	margin: 0 0 10px;
@@ -1899,7 +1889,7 @@ input:-webkit-autofill:focus {
 }
 
 .why-choose .single-choose list i {
-    color: #ed1c24;
+    color: #4460a0;
     margin-right: 5px;
 }
 
@@ -1973,7 +1963,7 @@ input:-webkit-autofill:focus {
 }
 /*=======================
   End Why Choose Us
-=========================*/
+=========================*/ 
 
 /*=======================
   07. Projects CSS
@@ -2034,7 +2024,7 @@ input:-webkit-autofill:focus {
 .projects .project-nav ul li:last-child{
 	margin:0;
 }
-.projects .project-nav ul li.active,
+.projects .project-nav ul li.active, 
 .projects .project-nav ul li:hover {
 	color: #fff;
 }
@@ -2287,7 +2277,7 @@ input:-webkit-autofill:focus {
 
 /*=======================
   08. Statics CSS
-=========================*/
+=========================*/ 
 .counter {
 	position: relative;
 	background: url('images/statics.jpg');
@@ -2342,11 +2332,11 @@ input:-webkit-autofill:focus {
 }
 /*=======================
   End Statics CSS
-=========================*/
+=========================*/ 
 
 /*=======================
   09. Team CSS
-=========================*/
+=========================*/ 
 .team {
 	background: #fff;
 	position: relative;
@@ -2543,14 +2533,14 @@ input:-webkit-autofill:focus {
 	background:#fff;
 }
 .team .team-details h2 {
-	color: #ed1c24 !important;
+	color: #4460a0;
 	margin: 15px 0;
 	text-align: center;
 	font-size: 25px;
 }
 
 .team .team-details h2 a {
-	color: #ed1c24 !important;
+	color: #4460a0 !important;
 	
 }
 
@@ -2619,7 +2609,7 @@ input:-webkit-autofill:focus {
 }
 /*=======================
   End Team CSS
-=========================*/
+=========================*/ 
 
 /*=======================
   10. Pricing Table CSS
@@ -3113,7 +3103,7 @@ input:-webkit-autofill:focus {
 }
 .blog-main .blog-info h2 {
 	font-size: 18px;
-	text-transform: unset;
+	text-transform: capitalize;
 	font-weight: 700;
 	line-height: 26px;
 }
@@ -3154,7 +3144,7 @@ input:-webkit-autofill:focus {
 }
 .blog-main .owl-controls .owl-dots .owl-dot:hover span{
 	border-color:transparent;
-}
+} 
 .blog-main .owl-controls .owl-dots .owl-dot.active span {
 	border-color: transparent;
 	width: 25px;
@@ -3226,7 +3216,7 @@ input:-webkit-autofill:focus {
 	-webkit-transform: perspective(600px) rotateY(90deg);
 	-moz-transform: perspective(600px) rotateY(90deg);
 	transform: perspective(600px) rotateY(90deg);
-
+	
 }
 .blog-main.archive .single-blog.slider:hover .owl-nav .owl-prev{
 	-webkit-transform: perspective(600px) rotateY(0deg);
@@ -3266,7 +3256,7 @@ input:-webkit-autofill:focus {
 	padding: 12px 25px;
 	border: none;
 }
-.blog-main.archive .pagination li:hover a,
+.blog-main.archive .pagination li:hover a, 
 .blog-main.archive .pagination li.active a {
 	color: #fff;
 }
@@ -3306,7 +3296,7 @@ input:-webkit-autofill:focus {
 }
 .blog-main.archive.single .blog-info h2 {
 	font-size: 25px;
-	text-transform: unset;
+	text-transform: uppercase;
 }
 .blog-main.archive.single .blog-info ul li {
 	margin-right: 5px;
@@ -3429,7 +3419,7 @@ input:-webkit-autofill:focus {
 	border-radius: 0px;
 }
 .blog-main .post-tab .post-info {
-/* 	float: left; */
+	float: left;
 	overflow: hidden;
 	margin-top: 6px;
 }
@@ -3437,7 +3427,6 @@ input:-webkit-autofill:focus {
 	font-size: 15px;
 	font-weight: 500;
 	margin: 0;
-	text-transform: unset;
 }
 .blog-main .post-tab .post-info a {
 	color: #353535;
@@ -3486,8 +3475,6 @@ input:-webkit-autofill:focus {
 }
 .blog-main.archive.section .single-blog{
 	padding:15px;
-/* 	height: 534px; */
-
 }
 .blog-main .subscribe form{
 	position:relative;
@@ -3751,18 +3738,19 @@ input:-webkit-autofill:focus {
 
 /*=======================
   15. Call-To-Action CSS
-=========================*/
+=========================*/  
 .call-to-action {
 	padding: 40px 0;
 	position: relative;
 }
 .call-to-action{
-	text-align:center;
+	text-align:left;
 }
 .call-to-action h2 {
 	color: #fff;
 	display: inline-block;
 	margin-right: 30px;
+	margin-left:20px;
 	font-size:28px;
 	font-weight:500;
 	text-transform:none;
@@ -3807,11 +3795,11 @@ input:-webkit-autofill:focus {
 }
 /*=======================
   End Call-To-Action CSS
-=========================*/
+=========================*/  
 
 /*=======================
   16 About US CSS
-=========================*/
+=========================*/ 
 .about-us{
 	background:#f6f6f6;
 }
@@ -3918,9 +3906,7 @@ input:-webkit-autofill:focus {
 	overflow:hidden;
 	margin-top:25px;
 }
-
-/* 
-.about-us .tabs-main .about-inner .single-image::before {
+/*.about-us .tabs-main .about-inner .single-image::before {
 	position: absolute;
 	content: '';
 	background: #000;
@@ -3933,10 +3919,11 @@ input:-webkit-autofill:focus {
 	-webkit-transition:all 0.4s ease;
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
-}
+
 .about-us .tabs-main .about-inner .single-image:hover:before{
 	opacity:0;
-}
+} 
+
 .about-us .tabs-main .about-inner .single-image:hover img{
 	-webkit-transform:scale(1.2);
 	-moz-transform:scale(1.2);
@@ -3969,8 +3956,6 @@ input:-webkit-autofill:focus {
 .about-us .tabs-main .about-inner .single-image img{
 	width:100%;
 }
-
-*/
 .about-us .tabs-main .about-inner .social {
 	width: 100%;
 	text-align: left;
@@ -3995,6 +3980,8 @@ input:-webkit-autofill:focus {
 	background:#353535;
 	color:#fff;
 }
+
+}*/
 .about-us .tabs-main .about-inner .about-text .content p {
 	margin-bottom: 20px;
 	font-weight: 300;
@@ -4143,12 +4130,12 @@ input:-webkit-autofill:focus {
 }
 
 
-.content .list i { color: #ed1c24; margin-right: 5px; }
+.content .list i { color: #4460a0; margin-right: 5px; }
 
 
 /*=======================
   End About Us CSS
-=========================*/
+=========================*/ 
 
 /*=======================
   17. Our Skill CSS
@@ -4281,7 +4268,7 @@ input:-webkit-autofill:focus {
 
 /*=======================
   19. Coming Soon
-=========================*/
+=========================*/ 
 .coming-soon{
 	background-image:url('images/coming-soon.jpg');
 	background-size:cover;
@@ -4326,7 +4313,7 @@ input:-webkit-autofill:focus {
 	left:20%;
 	-webkit-animation-delay:1s;
 	animation-delay:1s
-
+ 
 }
 .coming-soon .verticle-lines .vlines.two {
 	left:40%;
@@ -4645,7 +4632,7 @@ input:-webkit-autofill:focus {
 
 /*=======================
   23. Footer CSS
-=========================*/
+=========================*/ 
 .footer .footer-top {
 	padding: 40px 0 70px;
 	background-color: #fff !important;
@@ -4775,7 +4762,7 @@ input:-webkit-autofill:focus {
 	text-transform: capitalize;
 }
 .footer .copyright p a {
-	color: #ddd;
+	color: #4460a0;
 }
 .footer .copyright span{
 	margin:0px 5px;
@@ -4819,7 +4806,7 @@ input:-webkit-autofill:focus {
 }
 /*=======================
   End Footer CSS
-=========================*/
+=========================*/ 
 
 
 
@@ -4829,7 +4816,7 @@ input:-webkit-autofill:focus {
 .navigation {
   width: 100%;
   background:#fff;
-
+  
 }
 
 /* reset our lists to remove bullet points and padding */
@@ -4845,13 +4832,13 @@ input:-webkit-autofill:focus {
   background-color: #fff;
   text-decoration: none;
   padding: 10px;
-  color: #000 !important;
+  color: #000;
 }
 
 /* add hover behaviour */
 .sdmenu a:hover {
-    background-color: #ED1C24;
-	color:#fff !important;
+    background-color: #4460a0;
+	color:#fff;
 }
 
 .sdmenu li {
@@ -4877,9 +4864,9 @@ input:-webkit-autofill:focus {
 }
 
 .sdmenu a.active {
-
-	background: #ED1C24;
-	color:#fff !important;
+	
+	background: #4460a0;
+	color:#fff;
 	font-weight:bold;
 	text-transform:uppercase;
 		}
@@ -4898,7 +4885,7 @@ input:-webkit-autofill:focus {
 }
 
 .text a{
-	 color: #ed1c24;
+	 color: #4460a0;
 }
 
 .list li { line-height:25px; margin-bottom:30px; }
@@ -4913,8 +4900,8 @@ input:-webkit-autofill:focus {
     padding: 30px 0;
     text-align: center;
     margin-left: 5%; }
-
-.header .logo { padding: 0 0 0 40% !important; }
+	
+.header .logo { padding: 0 0 0 40% !important; }	
 
 .header .search {
     position: absolute;
@@ -4931,7 +4918,7 @@ input:-webkit-autofill:focus {
     transition: all 0.4s ease;
     position: absolute;
     right: 22px;
-    opacity:  1;
+    opacity:  1; 
 	visibility: hidden;
     top: 26px;
     z-index: 9999999;
@@ -4980,15 +4967,22 @@ input:-webkit-autofill:focus {
 	padding-bottom: 20px;
 	line-height: 60px;
 	color:#fff; margin-left:10%; }
-
+	
 .slide-inner h1 span { color:#0b3754; }
 
+.header .social {
+	display:none !important;
+}
+
 .team .team-details {
- display: block !important;
- width: 100%;
+   display: block !important ;
+   width:100%;
+ 
 }
 	
 .hero-area .owl-dots {
-	bottom: 20px !important; }	
-	
+    bottom: 20px !important;
+
 }
+
+

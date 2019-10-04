@@ -8,17 +8,20 @@ def home(request):
 def about(request):
     return render(request, 'about-us.html')
 
-def whatwedo(request):
-    return render(request, 'what-we-do.html')
+def technology(request):
+    return render(request, 'technology.html')
 
-def career(request):
-    return render(request, 'career.html')
+def consulting(request):
+    return render(request, 'consulting.html')
 
 def contact(request):
-    return render(request, 'contact.html')
+    return render(request, 'contact-us.html')
 
-def research_students(request):
-    return render(request, 'research-students.html')
+def trade(request):
+    return render(request, 'trade.html')
 
-def academic_research_institutions(request):
-    return render(request, 'academic-research-institutions.html')
+def blogs_list(request):
+    return render(request, 'blogs-list.html')
+
+def blog_details(request):
+    return render(request, 'blog-details.html')

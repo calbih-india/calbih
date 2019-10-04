@@ -25,10 +25,11 @@ urlpatterns = [
     url(r'^$', views.home, name='home'),
     path('admin/', admin.site.urls),
     path('about-us/', views.about, name='about-us'),
-    path('what-we-do/', views.whatwedo, name='what-we-do'),
-    path('career/', views.career, name='career'),
+    path('technology/', views.technology, name='technology'),
+    path('consulting/', views.consulting, name='consulting'),
     path('contact-us/', views.contact, name='contact-us'),
-    path('research-students/', views.research_students, name='research-students'),
-    path('academic-research-institutions/', views.academic_research_institutions, name='academic-research-institutions'),
+    path('trade/', views.trade, name='trade'),
+    path('blogs-list/', views.blogs_list, name='blogs-list'),
+    path('blog-details/', views.blog_details, name='blog-details'),
     
 ]
