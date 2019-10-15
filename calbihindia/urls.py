@@ -31,5 +31,6 @@ urlpatterns = [
     path('trade/', views.trade, name='trade'),
     path('blogs-list/', views.blogs_list, name='blogs-list'),
     path('blog-details/', views.blog_details, name='blog-details'),
+    path('vichar-vidyapeeth/', views.vichar_vidyapeeth, name='vichar-vidyapeeth'),
     
 ]

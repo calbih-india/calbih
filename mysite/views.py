@@ -25,3 +25,6 @@ def blogs_list(request):
 
 def blog_details(request):
     return render(request, 'blog-details.html')
+
+def vichar_vidyapeeth(request):
+    return render(request, 'vichar_vidyapeeth.html')
